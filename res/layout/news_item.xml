@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whites" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <ImageView
+            android:id="@+id/user_picture"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="@drawable/login_picture_bg"
+            android:contentDescription="@string/app_name"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/h001"/>
+
+        <TextView
+            android:id="@+id/user_time"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/user_time"
+            android:textColor="@color/gray_font"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/ll_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/user_time"
+            android:layout_toRightOf="@id/user_picture"
+            android:orientation="vertical" 
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/user_name"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/user_feel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/user_feel"
+                android:textColor="@color/gray_font"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

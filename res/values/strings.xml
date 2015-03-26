@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">NetTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="group">分组</string>
+    <string name="all">全部</string>
+    <string name="user_name">开心一刻</string>
+    <string name="user_feel">好好学习,天天向上</string>
+    <string name="user_time">TODO</string>
+   <string name="net_unavailable">世界上最遥远的距离就是没网，检查设置</string>
+   <string name="tv_search">搜索</string>
+
+</resources>

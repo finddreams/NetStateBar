@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="common_title">#F9F9F9</color>
+ <color name="blue">#499BF7</color>
+<color name="whites">#ffffff</color>
+    <color name="gray_font">#000000</color>
+    <color name="yellow_warning">#FFFF99</color>
+</resources>
