@@ -1,9 +1,9 @@
 <resources>
 
-    <string name="app_name">NetTest</string>
+    <string name="app_name">NetStateBar</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">NetStateBar</string>
     <string name="group">分组</string>
     <string name="all">全部</string>
     <string name="user_name">开心一刻</string>
